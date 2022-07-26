@@ -10,6 +10,7 @@ class TwilioSMSController extends Controller
 {
     public function index()
     {
+        // get your twilio credentials from https://www.twilio.com/
         $receiverNumber = "SENDER_NUMBER";
         $message = "This is testing message ";
   
